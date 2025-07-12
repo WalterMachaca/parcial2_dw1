@@ -1,0 +1,26 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(208, 228, 216);
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: aquamarine;
+    padding-top: 0cqb;
+}
+
+.nav {
+    height: 100vh;
+    background-color: rgb(142, 207, 169);
+    padding-top: 0cqb;
+}
+
+.card-img-top {
+    transition: transform 0.5s ease;
+}
+
+.card-img-top.forward {
+    transform: scale(1.2);
+    z-index: 10;
+    position: relative;
+}
